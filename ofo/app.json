@@ -1,0 +1,13 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/wallet/index",
+    "pages/warn/index",
+    "pages/money/index",
+    "pages/my/index",
+    "pages/number/index",
+    "pages/billing/index"
+  ]
+ 
+  
+}

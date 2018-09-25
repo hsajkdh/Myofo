@@ -1,0 +1,42 @@
+/* pages/my/index.wxss */
+.container{
+  width: 100%;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+.userInfo{
+   padding-top: 60rpx;
+   background-color: white;
+}
+.userInfo .img{
+   width: 180rpx;
+   height: 180rpx;
+   border-radius: 50%;
+   margin: 30rpx auto 40rpx;
+   box-shadow: 0 0 20rpx rgba(0,0,0,0.2);
+   overflow: hidden;
+}
+.userInfo .img image{
+  width: 100%;
+  height: 100%;
+}
+.userInfo .user-name{
+   padding: 30rpx 0;
+   display: inline-block;
+   width: 100%;
+   text-align: center;
+}
+.my-waller{
+  background-color: white;
+  padding: 40rpx;
+  margin-top: 60rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn-login{
+  width: 90%;
+  position: absolute;
+  bottom: 60rpx;
+  left: 5%;
+}

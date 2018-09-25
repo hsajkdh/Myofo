@@ -1,0 +1,4 @@
+<!--pages/index/index.wxml-->
+<view class='contant'>
+   <map longitude="{{longitude}}" latitude="{{latitude}}" id='ofo-map' show-location controls='{{controls}}' bindcontroltap='bindcontroltap' ></map>
+</view>

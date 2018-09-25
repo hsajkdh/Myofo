@@ -1,0 +1,16 @@
+<!--pages/number/index.wxml-->
+<view class='container'>
+    <view class='password-title'>
+        <text>开锁密码</text>
+    </view>
+    <view class='password-number'>
+      <text>{{password}}</text>
+    </view>
+    <view class='tips'>
+       请使用密码开锁，{{time}}秒后开始计费
+       <view class='tips-action'>
+          车辆有问题？
+          <text class='tips-herf'>回首页车辆保障</text>
+       </view>
+    </view>
+</view>

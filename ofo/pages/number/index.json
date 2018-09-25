@@ -1,0 +1,8 @@
+{
+  "navigationBarBackgroundColor": "#b9dd08",
+  "navigationBarTextStyle": "black",
+  "navigationBarTitleText": "获取密码",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "light",
+  "enablePullDownRefresh": false
+}

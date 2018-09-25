@@ -1,0 +1,33 @@
+<!--pages/warn/index.wxml-->
+<view class='continer'>
+   <view class='choose'>
+      <view class='title'>请选择故障类型</view>
+      <checkbox-group class="choose-grids" bindchange='checkBind'>
+         <block wx:for="{{message}}" wx:key="{{item}}">
+           <view class='grid'>
+             <checkbox value="{{item.value}}" checked='{{item.checked}}'>{{item.value}}</checkbox>
+           </view>
+         </block>
+      </checkbox-group>
+   </view>
+   <view class='action'>
+     <view class='title'>
+     拍摄单车周围环境，便于修车师傅找车
+     </view>
+     <view class='action-phone'>
+       <block wx:for="{{picUrls}}" wx:key="{{item}}">
+         <image src='{{item}}'>
+           <icon type='cancel' color='red' size='18' bindtap='delImg' data-index='{{index}}'></icon>
+         </image>
+       </block>
+       <text class='add' bindtap='chickPhone'>{{textAction}}</text>
+     </view>
+     <view class='action-input'>
+       <input name='number' placeholder='车牌号' bindinput='inputNum'></input>
+       <input name='des' placeholder='备注' bindinput='inputDes'></input>
+     </view>
+     <view class='action-submit'>
+       <button style="background-color:{{btnColor}}" bindtap='submit'>提交</button>
+     </view>
+   </view>
+</view>
